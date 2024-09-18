@@ -1,0 +1,70 @@
+ <!-- <!DOCTYPE html>
+ <html>
+ <body>
+
+<h2>JavaScript While Loop</h2> -->
+
+<!-- <p id="demo"></p>
+<p id="table"></p>
+<p id="demo2"></p>
+
+<p id="currency"></p>
+<script>
+
+let text = "";
+let i = 1;
+while (i < 30) {
+  text += "<br>The number is " + i;
+  i+=2;
+}
+document.getElementById("demo").innerHTML = text;
+
+ table using while
+ let text = "";
+ let table = parseInt(prompt("enter table"));
+ for (let i = 1; i<=10; i++){
+  let z = table*i;
+  if(1===table) { continue; }
+    text += table + " * " +i+ "=" + z + "<br>";
+  
+ }
+document.getElementById("table").innerHTML = text;
+const person = {
+  fname:"NIMRAH",
+  lname:"KHALID",
+  age:21
+};
+
+let text = "";
+for (let x in person){
+  text += person [x] + "<br>";
+}
+ document.getElementById("demo2").innerHTML = text;
+
+function todollar(Rs){
+  return Rs / 197.80 ;
+}
+document.getElementById("currency").innerHTML = todollar(120);
+
+let table = parseInt(prompt("enter value to change"),10);
+function torupees(amount){
+return 23397.80 * amount;
+}
+document.getElementById("currency").innerHTML = torupees(table).tofixed(2); -->
+
+<div id="currency"></div>
+    <script>
+        // Prompt the user to enter a value
+        let rupees = parseInt(prompt("Enter value to change"));
+
+        // Define the conversion function
+        function todollar(amount) {
+            return amount / 277.16;
+        }
+
+        // Update the innerHTML with the converted amount
+        document.getElementById("currency").innerHTML = todollar(rupees);
+    </script>
+
+</body>
+</html> 
